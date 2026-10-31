@@ -1,126 +1,89 @@
 # 🎮 Hangman Game – Python
 
-A simple, interactive, console-based Hangman word guessing game developed using Python as part of the **CodeAlpha Python Programming Internship**.
+A console-based Hangman word-guessing game developed using Python as part of the **CodeAlpha Python Programming Internship**.
 
-The game randomly selects a word from a predefined collection of words. Players must guess the hidden word one letter at a time before running out of attempts.
+The game randomly selects a word from a predefined collection. The player guesses one letter at a time and has up to six incorrect guesses to reveal the word.
 
-## ✨ Features
+## Features
 
-* 🎲 Random word selection from a large word collection.
-* 🔤 Hidden word display with underscores.
-* 💀 ASCII-based Hangman visual representation.
-* ❤️ Maximum of 6 incorrect guesses.
-* 🔍 Real-time letter guessing.
-* ✅ Input validation to prevent invalid entries.
-* 🔄 Repeated guess detection.
-* 🏆 Win and lose conditions.
-* 📢 Displays the correct answer when the game ends.
+- Random word selection from a large word collection
+- Hidden-word display using underscores
+- ASCII Hangman illustration
+- Maximum of six incorrect guesses
+- Single-letter input validation
+- Repeated-guess detection
+- Win and loss conditions
+- Displays the correct word when the game ends
 
-## 🛠️ Technologies Used
+## Technologies and Concepts
 
-* **Language:** Python
-* **Module:** Random
-* **Concepts:**
+- **Language:** Python 3
+- **Standard library:** `random`
+- **Python concepts:** functions, loops, conditionals, strings, lists, tuples, sets, and input validation
 
-  * Variables and Data Types
-  * Lists and Tuples
-  * Sets
-  * Functions
-  * Loops
-  * Conditional Statements
-  * String Manipulation
-  * User Input Validation
-
-## 📁 Project Structure
+## Project Structure
 
 ```text
 CodeAlpha_HangmanGame/
-│
-├── main.py       # Main game logic
-├── wordslist.py     # Collection of predefined words
+├── main.py          # Main game logic
+├── wordslist.py     # Predefined word collection
 └── README.md        # Project documentation
 ```
 
-## ⚙️ Installation and Setup
+## Getting Started
 
-### 1. Clone the repository
+### Requirements
 
-```bash
-git clone https://github.com/YOUR_USERNAME/CodeAlpha_HangmanGame.git
-```
+- Python 3.x
+- No third-party packages are required.
 
-### 2. Navigate to the project directory
+### Run the game
 
-```bash
-cd CodeAlpha_HangmanGame
-```
+1. Clone this repository:
 
-### 3. Run the game
+   ```bash
+   git clone https://github.com/mohammedshiyadh/CodeAlpha_HangmanGame.git
+   ```
 
-```bash
-python hangman.py
-```
+2. Open the project directory:
 
-**Requirements:** Python 3.x
+   ```bash
+   cd CodeAlpha_HangmanGame
+   ```
 
-No external libraries are required.
+3. Start the game:
 
-## 🎯 How to Play
+   ```bash
+   python main.py
+   ```
 
-1. Run the Python program.
-2. The computer randomly selects a secret word.
-3. The word is displayed as underscores.
-4. Enter one letter at a time to guess the word.
-5. Correct guesses reveal the corresponding letters.
-6. Incorrect guesses reduce your remaining attempts.
-7. You have a maximum of 6 incorrect guesses.
-8. Guess the complete word to win!
+   On some systems, use `python3 main.py` instead.
 
-## 🖥️ Example Gameplay
+## How to Play
 
-```text
-      HANGMAN
+1. Start the game.
+2. The program selects a word at random.
+3. Enter one letter per turn.
+4. Correct guesses reveal matching letters in the word.
+5. Incorrect guesses add a part to the Hangman drawing.
+6. Guess the complete word before reaching six incorrect guesses to win.
 
-      o
-     /|\
-     /
+## Learning Outcomes
 
-_ _ _ _ _ _
+This project provides practice with:
 
-Guess a letter: p
+- Selecting random items from a collection
+- Managing game state with variables and loops
+- Using sets to track previously guessed letters
+- Validating user input
+- Breaking a program into reusable functions
 
-Wrong guess! You have 5 guesses left.
+## Internship
 
-Guess a letter: y
+**CodeAlpha – Python Programming Internship**
 
-_ y _ _ _ _
-
-Congratulations! You guessed the word.
-```
-
-*Example output for illustration.*
-
-## 📚 Learning Outcomes
-
-Through this project, I practised:
-
-* Implementing random word selection.
-* Working with Python collections.
-* Managing game states using loops and conditions.
-* Creating reusable functions.
-* Validating user inputs.
-* Implementing basic game logic.
-
-## 👨‍💻 Author
+## Author
 
 **Mohammed Shiyadh S**
 
 B.Tech – Artificial Intelligence and Data Science
-
-## 📌 Internship
-
-Developed as part of the **CodeAlpha Python Programming Internship**.
-
----
-
-⭐ If you find this project interesting, feel free to explore the repository!
