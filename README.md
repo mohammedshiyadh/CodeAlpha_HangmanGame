@@ -36,7 +36,7 @@ The game randomly selects a word from a predefined collection of words. Players 
 ```text
 CodeAlpha_HangmanGame/
 │
-├── hangman.py       # Main game logic
+├── main.py       # Main game logic
 ├── wordslist.py     # Collection of predefined words
 └── README.md        # Project documentation
 ```
